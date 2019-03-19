@@ -1,0 +1,18 @@
+{{>header}}
+<div id="page-wrapper" class="flex-grow-1">
+    <h1>{{page_header}}</h1>
+    <form id="weatherForm">
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" aria-describedby="addressHelp" placeholder="Enter address">
+            <small id="addressHelp" class="form-text text-muted">Please enter your address to get weather forecast.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <p id="result-address"></p>
+    <p id="result-location"></p>
+    <p id="result-forecast"></p>
+    {{body}}
+</div>
+
+{{>footer}}

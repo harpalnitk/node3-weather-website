@@ -1,0 +1,26 @@
+h1 {
+    color: grey;
+}
+
+#wrapper {
+    padding: 0;
+}
+#page-wrapper {
+    width: 100%;
+    padding: 0 16px;
+    background-color: #f8f9fa !important;
+}
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+.footer{
+    color: #888888;
+    border-top: 1px solid darkgray;
+    padding: 16px 16px;
+}
+
+.portrait {
+    width: 250px;
+}
